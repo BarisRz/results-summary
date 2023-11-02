@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Hanken Grotesk, sans-serif;
+}
+
+.container {
+  width: 740px;
+  height: 510px;
+  display: flex;
+  border-radius: 2rem;
+
+  .info {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: inherit;
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+  }
+
+  .score {
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  }
+
+  .ranking {
+    font-size: 18px;
+  }
+
+  .result {
+    border-radius: inherit;
+  }
+
+  .detail {
+    div {
+      border-radius: 0.5rem;
+    }
+    .reaction {
+      background-color: hsla(0, 100%, 67%, 0.1);
+      color: hsl(0, 100%, 67%);
+    }
+    .memory {
+      background-color: hsla(39, 100%, 56%, 0.1);
+      color: hsl(39, 100%, 56%);
+    }
+    .verbal {
+      background-color: hsla(166, 100%, 37%, 0.1);
+      color: hsl(166, 100%, 37%);
+    }
+    .visual {
+      background-color: hsla(234, 85%, 45%, 0.1);
+      color: hsl(234, 85%, 45%);
+    }
+  }
+
+  .continue {
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border-radius: inherit;
+  }
+}
