@@ -2,8 +2,8 @@ import data from "../data/data.json";
 
 function Result() {
   return (
-    <div className="result w-1/2 max-md:w-full bg-white p-10 flex flex-col gap-8">
-      <p className="text-2xl font-bold">Summary</p>
+    <div className="result w-1/2 p-10 max-md:gap-4 flex flex-col gap-8">
+      <p className="text-2xl font-bold max-md:text-lg">Summary</p>
       <div className="detail flex flex-col gap-5">
         <div className="reaction w-72 h-14 bg-black flex items-center p-4 justify-between">
           <div className="flex gap-2">
